@@ -1,0 +1,96 @@
+/*
+Descricao: Exercícios da Aula 11 - Tabelas e Dados Tabulados
+nome_arquivo: styles.css
+nome_exercicio: Desafio 01 - Tabela de Preços de Sorvetes
+nome_aluno: Pedro Henrique de Sousa Martins
+email_aluno: pedro.martins55@aluno.cps.sp.gov.br
+turma: A1129-N-D.S.M.-312-20262
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8f0;
+    color: #333333;
+}
+
+header {
+    background-color: #ec407a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+table {
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 3px solid #ec407a;
+}
+
+th, td {
+    border: 1px solid #f8bbd0;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ec407a;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+td img {
+    width: 70px;
+    height: 80px;
+    border: 2px solid #f8bbd0;
+    border-radius: 10px;
+    background-color: #fff0f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fce4ec;
+}
+
+tbody tr:hover {
+    background-color: #f8bbd0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status-ok {
+    color: #2e7d32;
+}
+
+.status-vazio {
+    color: #ffffff;
+    background-color: #e53935;
+}
+
+tfoot td {
+    background-color: #ec407a;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #888888;
+}
